@@ -1,4 +1,4 @@
-module github.com/hashicorp/vault-plugin-secrets-kv
+module github.com/openbao/openbao-plugin-secrets-kv
 
 go 1.16
 
@@ -9,8 +9,8 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-secure-stdlib/parseutil v0.1.2
 	github.com/hashicorp/go-secure-stdlib/strutil v0.1.1
-	github.com/hashicorp/vault/api v1.3.0
-	github.com/hashicorp/vault/sdk v0.3.1-0.20220112143259-b48602fdb885
+	github.com/openbao/openbao/api v1.3.0
+	github.com/openbao/openbao/sdk v0.3.1-0.20220112143259-b48602fdb885
 	github.com/hashicorp/yamux v0.0.0-20181012175058-2f1d1f20f75d // indirect
 	github.com/mitchellh/mapstructure v1.4.2
 	google.golang.org/protobuf v1.27.1
